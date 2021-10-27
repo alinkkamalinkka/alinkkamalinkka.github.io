@@ -5,22 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Про мене</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
     <meta name="description" content="Маленька анкеточка/дз по веб технологіям"/>
     <meta name="og:image" content="https://alinkkamalinkka.github.io/og_image.jpg"/>
 </head>
 <body>
-    <h1>Привіт)</h1>
-    <img src="me.jpg" alt="" width=50%>
-    <p>Ім'я: Аліна</p>
-    <p>Прізвище: Обідняк</p>
-    <p>Вік: 19</p>
-    <p>День народження: 28.07.2002 </p>
-    <p>Знак зодіаку: Лев</p>
-    <p>Люблю танці, сноуборд, море і кроликів.</p>
-    <p>Соц.мережі:</p>
-    <ol>
-        <li><a href="https://www.instagram.com/o_alina888/">inst.</a></li>
-        <li><a href="https://www.facebook.com/profile.php?viewas=100000686899395&id=100034112288447">fcb.</a></li>
-    </ol>
+
+    <div class="header">
+        <div class="wrapper">
+          <a href="#top" class="logo">
+            <!-- <img src="logo.png" /> -->
+            obidniak A.
+          </a>
+          <div class="menu">
+            <p><a href="#about">про мене</a></p>
+            <p><a href="#portfolio">портфоліо</a></p>
+            <p><a href="#contacts">контакти</a></p>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="about" class="section section-about">
+        <div class="wrapper">
+          <div class="conteiner">
+              <p align="right" class="title">ПРИВІТ,<br>МЕНЕ<br>ЗВУТЬ<br>АЛІНА</p>
+              <img src="me.jpg" alt="" width=33% >
+          </div>
+          <div class="conteiner conteiner-text">
+              <p class="regular">Трохи про мене. Я вже 3-й рік вчусь у ЛНАМ на графічного дизайнера. Більш за все я люблю розробляти візуальну айдентику і працювати з текстом. Тут ви можете подивитись деякі мої роботи (коли я їх сюди закину).</p>
+          </div>
+          <!--<a href="#top">На початок</a>-->
+        </div>
+      </div>
+
+      <div id="portfolio" class="section section-portfolio">
+        <div class="wrapper">
+          <div class="gallery">
+            <div class="gallery--item">
+              <img src="https://picsum.photos/id/111/640" />
+              <p class="regular">2019</p>
+            </div>
+            <div class="gallery--item">
+              <img src="https://picsum.photos/id/222/640" />
+              <p class="regular">2019</p>
+            </div>
+            <div class="gallery--item">
+              <img src="https://picsum.photos/id/33/640" />
+              <p class="regular">2020</p>
+            </div>
+            <div class="gallery--item">
+              <img src="https://picsum.photos/id/444/640" />
+              <p class="regular">2020</p>
+            </div>
+            <div class="gallery--item">
+              <img src="https://picsum.photos/id/555/640" />
+              <p class="regular">2021</p>
+            </div>
+            <div class="gallery--item">
+              <img src="https://picsum.photos/id/666/640" />
+              <p class="regular">2021</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div id="contacts" class="section section-contacts">
+        <div class="wrapper">
+          <p class="title">Напиши<br>мені</p>
+          <div class="footer">
+            <a class="regular" href="https://www.instagram.com/o_alina888/">instagram</a>
+            <a class="regular" href="https://www.facebook.com/profile.php?viewas=100000686899395&id=100034112288447">facebook</a>
+            <p class="regular" >alina.obidniak@gmail.com</p>
+          </div>
+        </div>
+      </div>      
 </body>
 </html>
