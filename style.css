@@ -8,6 +8,7 @@
   
   body {
     margin: 0;
+    background-color: white;
   }
   
   a {
@@ -48,7 +49,7 @@
   }
 
   .header {
-    background-color: transparent;  
+    background-color: inherit;  
     position: fixed;
     top: 0px;
     left: 0px;
