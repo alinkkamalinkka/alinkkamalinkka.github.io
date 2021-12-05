@@ -5,12 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Про мене</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
+
     <meta name="description" content="Маленька анкеточка/дз по веб технологіям"/>
     <meta name="og:image" content="https://alinkkamalinkka.github.io/og_image.jpg"/>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/css/lightgallery.min.css"
+      integrity="sha512-e/7+n/bcByOQg6+rGt7Bx12Si0rpj4Xfe3EeS3W2RDSGGG/qT9rC7ZQCVAgaVAmZKZisvZ1DqaMd66TzfVO/Sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
 </head>
 <body>
 
@@ -45,30 +61,52 @@
       <div id="portfolio" class="section section-portfolio">
         <div class="wrapper">
           <div class="gallery">
+
             <div class="gallery--item">
+              <a
+              href="https://picsum.photos/id/111/640"
+              target="_blank"
+              data-sub-html="<h4>Назва роботи</h4><p>Опис роботи <a href='http://google.com/' target='_blank'>view logn</a> description later on.</p>"              >
               <img src="https://picsum.photos/id/111/640" />
+            </a>
               <p class="regular">2019</p>
             </div>
+
             <div class="gallery--item">
-              <img src="https://picsum.photos/id/222/640" />
+              <a href="https://picsum.photos/id/222/640" data-sub-html=" <h4>Fading Light</h4> <p>Classic view from <a href='http://google.com' target='_blank'>Rigwood Jetty</a> on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+                <img src="https://picsum.photos/id/222/640">
+              </a>
               <p class="regular">2019</p>
             </div>
+
             <div class="gallery--item">
-              <img src="https://picsum.photos/id/33/640" />
+              <a href="https://picsum.photos/id/33/640" data-sub-html=" <h4>Fading Light</h4> <p>Classic view from <a href='http://google.com' target='_blank'>Rigwood Jetty</a> on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+                <img src="https://picsum.photos/id/33/640">
+              </a>
               <p class="regular">2020</p>
             </div>
+
             <div class="gallery--item">
-              <img src="https://picsum.photos/id/444/640" />
+              <a href="https://picsum.photos/id/444/640" data-sub-html=" <h4>Fading Light</h4> <p>Classic view from <a href='http://google.com' target='_blank'>Rigwood Jetty</a> on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+                <img src="https://picsum.photos/id/444/640">
+              </a>
               <p class="regular">2020</p>
             </div>
+
             <div class="gallery--item">
-              <img src="https://picsum.photos/id/555/640" />
+              <a href="https://picsum.photos/id/555/640" data-sub-html=" <h4>Fading Light</h4> <p>Classic view from <a href='http://google.com' target='_blank'>Rigwood Jetty</a> on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+                <img src="https://picsum.photos/id/555/640">
+              </a>
               <p class="regular">2021</p>
             </div>
+
             <div class="gallery--item">
-              <img src="https://picsum.photos/id/666/640" />
+              <a href="https://picsum.photos/id/666/640" data-sub-html=" <h4>Fading Light</h4> <p>Classic view from <a href='http://google.com' target='_blank'>Rigwood Jetty</a> on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+                <img src="https://picsum.photos/id/666/640">
+              </a>
               <p class="regular">2021</p>
             </div>
+
           </div>
         </div>
       </div>
@@ -82,6 +120,20 @@
             <p class="regular" >alina.obidniak@gmail.com</p>
           </div>
         </div>
-      </div>      
+      </div>     
+      
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/lightgallery.min.js"
+      integrity="sha512-+1CyleTPoFvPO15/CfBZ5h6k/mu/qCQe9uxq1tEfO7SRJ52MnCAQ561bAYkvrsGtnG7AkcvKtVwdeoZc8ps7bQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script type="text/javascript">
+      lightGallery(document.getElementById('portfolio'), {
+        selector: '.gallery--item a',
+      });
+    </script>
+
 </body>
 </html>
